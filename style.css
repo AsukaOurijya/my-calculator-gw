@@ -43,11 +43,27 @@ html[data-theme="dark"]{
 body{
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    gap: 20px;
     background-color: var(--page-bg);
     color: var(--page-text);
+}
+
+#header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header h1{
+    margin: 0;
+}
+
+#header h4{
+    margin: 8px 0 0 0;
+    font-weight: 600;
 }
 
 #theme-toggle{
